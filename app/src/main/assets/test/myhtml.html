@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>wow</title>
+	<meta charset="utf-8">
+
+	<style type="text/css">
+		.text
+	{
+		font-size: 27;
+	}
+	</style>
+	<script type="text/javascript">
+		function toast() {
+			document.getElementById("biaoqian").innerHTML="已经点了";
+			toastObject.toastMessage("来自JavaScript");
+		}
+
+		function alertMessage(){
+			document.getElementById("biaoqian").innerHTML="点击跳转";
+		}
+	</script>
+</head>
+<body>
+
+<a href="god://xunevermore.com?key1=1" class="text" id="biaoqian">点击跳转</a>
+
+<button type="button" onclick="toast()">change</button>
+</body>
+</html>
